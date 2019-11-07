@@ -1,14 +1,18 @@
-md5: 0262b3d2369f126f3bfe99c8b9424791
-cmd: python src/featurization.py data/prepared data/features
-wdir: .
+md5: f0ff19f288f70d33c4f906bc7c410fee
+cmd: python src/featurization.py data/prepared data/features pipeline.pkl
 deps:
-- md5: ef70c6c0fbf4107fdab468af66333f48
+- md5: 21581bb85a5885822846a65b20b1c242
   path: src/featurization.py
 - md5: 6836f797f3924fb46fcfd6b9f6aa6416.dir
   path: data/prepared
 outs:
 - md5: 42c7025fc0edeb174069280d17add2d4.dir
   path: data/features
+  cache: true
+  metric: false
+  persist: false
+- md5: ed68994bfd2e4a05ba6106d063475d2a
+  path: pipeline.pkl
   cache: true
   metric: false
   persist: false
