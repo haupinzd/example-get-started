@@ -2,7 +2,7 @@
   name: tagger
 
 - kind: api
-  name: python
+  name: stackoverflow
   predictor:
     path: predictor.py
     metadata:
