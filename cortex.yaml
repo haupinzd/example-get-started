@@ -1,8 +1,8 @@
 - kind: deployment
-  name: tagger
+  name: stackoverflow
 
 - kind: api
-  name: stackoverflow
+  name: tagger
   predictor:
     path: predictor.py
     metadata:
