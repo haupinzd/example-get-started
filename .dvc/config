@@ -2,4 +2,6 @@
 ['remote "storage"']
 url = s3://cortex-examples/dvc
 [core]
-remote = storage
+remote = aws
+['remote "aws"']
+url = s3://larimer-county-data-lake/lc-lake-test/Internal/Models
